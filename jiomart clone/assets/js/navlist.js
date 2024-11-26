@@ -110,3 +110,145 @@ function addelectronicsList() {
 }
 
 addelectronicsList();
+
+
+
+// create Fashions categorie options
+
+let fashionsList = [
+    {name: "Men", link: "javascript:void(0)", id: "menFashions"},
+    {name: "Women", link: "javascript:void(0)", id: "womenFashions"},
+    {name: "Boys", link: "javascript:void(0)", id: "boysFashions"},
+    {name: "Girls", link: "javascript:void(0)", id: "girlsFashions"},
+    {name: "Infants", link: "javascript:void(0)", id: "infantsFashions"}
+]
+
+function addFashionList(){
+    let div = document.createElement("DIV");
+    div.classList.add("fashionlistitems");
+    fashionsList.forEach((list) => {
+        let span = document.createElement("SPAN");
+        span.textContent = list.name;
+        span.classList.add("fashionlist-items");
+        span.id = list.id;
+        div.appendChild(span);
+    })
+    document.querySelector("#fashionItems").appendChild(div);
+}
+
+addFashionList();
+
+
+// create Industrial & Professional Supplies categorie options
+
+let industrialProfessionalList = [
+    {name: "Auto Care", link: "javascript:void(0)", id: "autocareIndustry"},
+    {name: "Industrial Supplies", link: "javascript:void(0)", id: "indusupplyIndustry"},
+    {name: "Home Cleaning & Organisation", link: "javascript:void(0)", id: "homecleanIndustry"},
+    {name: "Electrical & Electronic Components", link: "javascript:void(0)", id: "electroniccompIndustry"},
+    {name: "Building Supplies & Tools", link: "javascript:void(0)", id: "buildingtoolIndustry"},
+    {name: "Carpentry", link: "javascript:void(0)", id: "carpentryIndustry"},
+    {name: "Electrical", link: "javascript:void(0)", id: "electricalIndustry"},
+    {name: "Hardware & Plumbing", link: "javascript:void(0)", id: "hardwareplumbIndustry"}
+]
+
+function addindustrialProfessionalList(){
+    let div = document.createElement("DIV");
+    div.classList.add("industryProfessListItems");
+    industrialProfessionalList.forEach((list) => {
+        let span = document.createElement("SPAN");
+        span.textContent = list.name;
+        span.classList.add("industryProfessList-items");
+        span.id = list.id;
+        div.appendChild(span);
+    })
+    document.querySelector("#industrialItems").appendChild(div);
+}
+
+addindustrialProfessionalList();
+
+
+
+// create Precious Jewellery categorie options
+
+let preciousjewelleryList = [
+    {name: "Fine Jewellery", link: "javascript:void(0)", id: "fineJewellery"},
+    {name: "Jewellery", link: "javascript:void(0)", id: "jewelleryJewellery"}
+]
+
+function addpreciousjewelleryList(){
+    let div = document.createElement("DIV");
+    div.classList.add("preciousjewelleryItems");
+    preciousjewelleryList.forEach((list) => {
+        let span = document.createElement("SPAN");
+        span.textContent = list.name;
+        span.classList.add("preciousjewelleryList-items");
+        span.id = list.id;
+        div.appendChild(span);
+    })
+    document.querySelector("#jewelleryItems").appendChild(div);
+}
+
+addpreciousjewelleryList();
+
+
+
+// create Wellness categorie options
+
+let wellnessList = [
+    {name: "Personal Care", link: "javascript:void(0)", id: "personalcareWellness"},
+    {name: "Fitness", link: "javascript:void(0)", id: "fitnessWellness"},
+    {name: "Skin Care", link: "javascript:void(0)", id: "skincareWellness"},
+    {name: "Ayush", link: "javascript:void(0)", id: "ayushWellness"},
+    {name: "Mom & Baby", link: "javascript:void(0)", id: "mombabyWellness"},
+    {name: "Hair", link: "javascript:void(0)", id: "hairWellness"},
+    {name: "Surgical", link: "javascript:void(0)", id: "surgicalWellness"},
+    {name: "Fragrances", link: "javascript:void(0)", id: "fragrancesWellness"},
+    {name: "Devices", link: "javascript:void(0)", id: "devicesWellness"}
+]
+
+function addwellnessList(){
+    let div = document.createElement("DIV");
+    div.classList.add("wellnessItems");
+    wellnessList.forEach((list) => {
+        let span = document.createElement("SPAN");
+        span.textContent = list.name;
+        span.classList.add("wellnessList-items");
+        span.id = list.id;
+        div.appendChild(span);
+    })
+    document.querySelector("#wellnessItems").appendChild(div);
+}
+
+addwellnessList();
+
+
+
+// create Biscuits, Drinks & Packaged Foods subcategorie options
+
+let biscuitsdrinkList = [
+    { name: "Chips & Namkeens", link: "javascript:void(0)" },
+    { name: "Biscuits & Cookies", link: "javascript:void(0)" },
+    { name: "Chocolates & Candies", link: "javascript:void(0)" },
+    { name: "Indian Sweets", link: "javascript:void(0)" },
+    { name: "Drinks & Juices", link: "javascript:void(0)" },
+    { name: "Breakfast Cereals", link: "javascript:void(0)" },
+    { name: "Noodles, Pasta & Vermicelli", link: "javascript:void(0)" },
+    { name: "Ready To Cook & Eat", link: "javascript:void(0)" },
+    { name: "Spread, Sauces & Ketchup", link: "javascript:void(0)" },
+    { name: "Pickles, Chutney & Flavouring", link: "javascript:void(0)" }
+];
+
+function addbiscuitsdrinkList(){
+    let div = document.createElement("DIV");
+    div.classList.add("biscuitsdrinksubItems");
+    biscuitsdrinkList.forEach((list) => {
+        let span = document.createElement("SPAN");
+        span.textContent = list.name
+        span.classList.add("biscuitsdrinkList-subitems");
+        div.appendChild(span);
+    })
+    document.querySelector("#packagedFoodGroceries").appendChild(div);
+}
+
+addbiscuitsdrinkList();

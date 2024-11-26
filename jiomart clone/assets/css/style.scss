@@ -108,14 +108,13 @@ a {
             font-size: 15px;
             position: relative;
             padding: 15px 0;
-            .grocerieslistitems, .homeLifestylelistitems, .electronicslistitems{
+            .grocerieslistitems, .homeLifestylelistitems, .electronicslistitems, .fashionlistitems, .industryProfessListItems, .preciousjewelleryItems, .wellnessItems{
                 display: none;
                 flex-direction: column;
                 gap: 4px;
                 position: absolute;
-                top: 54px;
-                left: -10px;
-                
+                top: 52px;
+                left: -10px;                
                 color: #000;
                 background: #fff;
                 width: 230px;
@@ -123,7 +122,7 @@ a {
                 box-shadow: 0 0 5px #aea8a8;
                 border-radius: 10px;
                 font-size: 15px;
-                .grocerieslist-items, .home-lifestylelist-items, .electronicslist-items{
+                .grocerieslist-items, .home-lifestylelist-items, .electronicslist-items, .fashionlist-items, .industryProfessList-items, .preciousjewelleryList-items, .wellnessList-items{
                     padding:7px 10px 7px 15px;
                     border-radius: 25px 0 0 25px;
                     &:hover{
@@ -156,4 +155,66 @@ a {
         border-bottom: 3px solid #5ecefa;
     }
     .electronicslistitems{display: flex;}
+}
+
+#fashionItems:hover{
+  #infashionItems{
+    border-bottom: 3px solid #5ecefa;
+  }
+  .fashionlistitems{display: flex;}
+}
+
+#industrialItems:hover{
+  #inindustrialItems{
+    border-bottom: 3px solid #5ecefa;
+  }
+  .industryProfessListItems{display: flex;}
+}
+
+#jewelleryItems:hover{
+  #injewelleryItems{
+    border-bottom: 3px solid #5ecefa;
+  }
+  .preciousjewelleryItems{display: flex;}
+}
+
+#wellnessItems:hover{
+  #inwellnessItems{
+    border-bottom: 3px solid #5ecefa;
+  }
+  .wellnessItems{display: flex;}
+}
+
+
+#groceriesItems{
+  #packagedFoodGroceries{
+    position: relative;
+    .biscuitsdrinksubItems{
+      display: none;
+      flex-direction: column;
+      gap: 12px;
+      position: absolute;
+      top: 0;
+      left: 225px;                
+      color: #000;
+      background: #fff;
+      width: 230px;
+      padding: 15px 20px;
+      box-shadow: 0 0 5px #aea8a8;      
+      font-size: 15px;
+      .biscuitsdrinkList-subitems{
+        transition: 0.4s;
+        &:hover{
+          color: #0c5273;
+          transform: scale(1.03);
+          font-weight: 500;
+        }
+      }
+    }
+    &:hover{
+      .biscuitsdrinksubItems{
+        display: flex;
+      }
+    }
+  }
 }

@@ -112,12 +112,12 @@ a {
   position: relative;
   padding: 15px 0;
 }
-.top-header .main-nav .main-navlist .navlistitems .grocerieslistitems, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems {
+.top-header .main-nav .main-navlist .navlistitems .grocerieslistitems, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems, .top-header .main-nav .main-navlist .navlistitems .wellnessItems {
   display: none;
   flex-direction: column;
   gap: 4px;
   position: absolute;
-  top: 54px;
+  top: 52px;
   left: -10px;
   color: #000;
   background: #fff;
@@ -127,14 +127,14 @@ a {
   border-radius: 10px;
   font-size: 15px;
 }
-.top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .electronicslist-items {
+.top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .fashionlist-items, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .industryProfessList-items, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .preciousjewelleryList-items, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .wellnessList-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .fashionlist-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .industryProfessList-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .preciousjewelleryList-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .wellnessList-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .fashionlist-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .industryProfessList-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .preciousjewelleryList-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .wellnessList-items, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .fashionlist-items, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .industryProfessList-items, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .preciousjewelleryList-items, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .wellnessList-items, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .fashionlist-items, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .industryProfessList-items, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .preciousjewelleryList-items, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .wellnessList-items, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .fashionlist-items, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .industryProfessList-items, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .preciousjewelleryList-items, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .wellnessList-items, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .fashionlist-items, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .industryProfessList-items, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .preciousjewelleryList-items, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .wellnessList-items {
   padding: 7px 10px 7px 15px;
   border-radius: 25px 0 0 25px;
 }
-.top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .electronicslist-items:hover {
+.top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .fashionlist-items:hover, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .industryProfessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .preciousjewelleryList-items:hover, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .wellnessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .fashionlist-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .industryProfessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .preciousjewelleryList-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .wellnessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .fashionlist-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .industryProfessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .preciousjewelleryList-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .wellnessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .fashionlist-items:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .industryProfessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .preciousjewelleryList-items:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .wellnessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .fashionlist-items:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .industryProfessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .preciousjewelleryList-items:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .wellnessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .fashionlist-items:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .industryProfessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .preciousjewelleryList-items:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .wellnessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .fashionlist-items:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .industryProfessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .preciousjewelleryList-items:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .wellnessList-items:hover {
   background-color: #e0fae9;
 }
-.top-header .main-nav .main-navlist .navlistitems .grocerieslistitems:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems:hover {
+.top-header .main-nav .main-navlist .navlistitems .grocerieslistitems:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems:hover {
   display: flex;
 }
 
@@ -156,5 +156,62 @@ a {
   border-bottom: 3px solid #5ecefa;
 }
 #electronicsItems:hover .electronicslistitems {
+  display: flex;
+}
+
+#fashionItems:hover #infashionItems {
+  border-bottom: 3px solid #5ecefa;
+}
+#fashionItems:hover .fashionlistitems {
+  display: flex;
+}
+
+#industrialItems:hover #inindustrialItems {
+  border-bottom: 3px solid #5ecefa;
+}
+#industrialItems:hover .industryProfessListItems {
+  display: flex;
+}
+
+#jewelleryItems:hover #injewelleryItems {
+  border-bottom: 3px solid #5ecefa;
+}
+#jewelleryItems:hover .preciousjewelleryItems {
+  display: flex;
+}
+
+#wellnessItems:hover #inwellnessItems {
+  border-bottom: 3px solid #5ecefa;
+}
+#wellnessItems:hover .wellnessItems {
+  display: flex;
+}
+
+#groceriesItems #packagedFoodGroceries {
+  position: relative;
+}
+#groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems {
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  position: absolute;
+  top: 0;
+  left: 225px;
+  color: #000;
+  background: #fff;
+  width: 230px;
+  padding: 15px 20px;
+  box-shadow: 0 0 5px #aea8a8;
+  font-size: 15px;
+}
+#groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems {
+  transition: 0.4s;
+}
+#groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems:hover {
+  color: #0c5273;
+  transform: scale(1.03);
+  font-weight: 500;
+}
+#groceriesItems #packagedFoodGroceries:hover .biscuitsdrinksubItems {
   display: flex;
 }/*# sourceMappingURL=style.css.map */
