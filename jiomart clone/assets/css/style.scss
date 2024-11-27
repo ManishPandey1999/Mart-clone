@@ -187,22 +187,22 @@ a {
 
 
 #groceriesItems{
-  #packagedFoodGroceries{
-    position: relative;
-    .biscuitsdrinksubItems{
+  position: relative;
+  #packagedFoodGroceries, #vegfruitsGroceries, #cookessentialGroceries{
+    .biscuitsdrinksubItems, .fruitsvegsubItems, .cookessentialsubItems{
       display: none;
       flex-direction: column;
       gap: 12px;
       position: absolute;
       top: 0;
-      left: 225px;                
+      left: 230px;                
       color: #000;
       background: #fff;
       width: 230px;
       padding: 15px 20px;
       box-shadow: 0 0 5px #aea8a8;      
       font-size: 15px;
-      .biscuitsdrinkList-subitems{
+      .biscuitsdrinkList-subitems, .fruitsvegList-subitems, .cookessentialList-subitems{
         transition: 0.4s;
         &:hover{
           color: #0c5273;
@@ -211,10 +211,24 @@ a {
         }
       }
     }
-    &:hover{
-      .biscuitsdrinksubItems{
-        display: flex;
-      }
-    }
+  }
+}
+
+
+#packagedFoodGroceries:hover{
+  .biscuitsdrinksubItems{
+    display: flex !important;
+  }
+}
+
+#vegfruitsGroceries:hover{
+  .fruitsvegsubItems{
+    display: flex !important;
+  }
+}
+
+#cookessentialGroceries:hover{
+  .cookessentialsubItems{
+    display: flex !important;
   }
 }

@@ -187,16 +187,16 @@ a {
   display: flex;
 }
 
-#groceriesItems #packagedFoodGroceries {
+#groceriesItems {
   position: relative;
 }
-#groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems {
+#groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems, #groceriesItems #packagedFoodGroceries .cookessentialsubItems, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems, #groceriesItems #vegfruitsGroceries .cookessentialsubItems, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems, #groceriesItems #cookessentialGroceries .fruitsvegsubItems, #groceriesItems #cookessentialGroceries .cookessentialsubItems {
   display: none;
   flex-direction: column;
   gap: 12px;
   position: absolute;
   top: 0;
-  left: 225px;
+  left: 230px;
   color: #000;
   background: #fff;
   width: 230px;
@@ -204,14 +204,23 @@ a {
   box-shadow: 0 0 5px #aea8a8;
   font-size: 15px;
 }
-#groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems {
+#groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems, #groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .fruitsvegList-subitems, #groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .cookessentialList-subitems, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .fruitsvegList-subitems, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .cookessentialList-subitems, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .biscuitsdrinkList-subitems, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .fruitsvegList-subitems, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .cookessentialList-subitems, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .fruitsvegList-subitems, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .cookessentialList-subitems, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .fruitsvegList-subitems, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .cookessentialList-subitems, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .biscuitsdrinkList-subitems, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .fruitsvegList-subitems, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .cookessentialList-subitems, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .fruitsvegList-subitems, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .cookessentialList-subitems, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .fruitsvegList-subitems, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .cookessentialList-subitems, #groceriesItems #cookessentialGroceries .cookessentialsubItems .biscuitsdrinkList-subitems, #groceriesItems #cookessentialGroceries .cookessentialsubItems .fruitsvegList-subitems, #groceriesItems #cookessentialGroceries .cookessentialsubItems .cookessentialList-subitems {
   transition: 0.4s;
 }
-#groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems:hover {
+#groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .fruitsvegList-subitems:hover, #groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .cookessentialList-subitems:hover, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .fruitsvegList-subitems:hover, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .cookessentialList-subitems:hover, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .fruitsvegList-subitems:hover, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .cookessentialList-subitems:hover, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .fruitsvegList-subitems:hover, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .cookessentialList-subitems:hover, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .fruitsvegList-subitems:hover, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .cookessentialList-subitems:hover, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .fruitsvegList-subitems:hover, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .cookessentialList-subitems:hover, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .fruitsvegList-subitems:hover, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .cookessentialList-subitems:hover, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .fruitsvegList-subitems:hover, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .cookessentialList-subitems:hover, #groceriesItems #cookessentialGroceries .cookessentialsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #cookessentialGroceries .cookessentialsubItems .fruitsvegList-subitems:hover, #groceriesItems #cookessentialGroceries .cookessentialsubItems .cookessentialList-subitems:hover {
   color: #0c5273;
   transform: scale(1.03);
   font-weight: 500;
 }
-#groceriesItems #packagedFoodGroceries:hover .biscuitsdrinksubItems {
-  display: flex;
+
+#packagedFoodGroceries:hover .biscuitsdrinksubItems {
+  display: flex !important;
+}
+
+#vegfruitsGroceries:hover .fruitsvegsubItems {
+  display: flex !important;
+}
+
+#cookessentialGroceries:hover .cookessentialsubItems {
+  display: flex !important;
 }/*# sourceMappingURL=style.css.map */

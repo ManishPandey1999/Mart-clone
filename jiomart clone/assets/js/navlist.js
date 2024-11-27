@@ -226,7 +226,7 @@ addwellnessList();
 
 // create Biscuits, Drinks & Packaged Foods subcategorie options
 
-let biscuitsdrinkList = [
+let biscuitsdrinksubList = [
     { name: "Chips & Namkeens", link: "javascript:void(0)" },
     { name: "Biscuits & Cookies", link: "javascript:void(0)" },
     { name: "Chocolates & Candies", link: "javascript:void(0)" },
@@ -242,7 +242,7 @@ let biscuitsdrinkList = [
 function addbiscuitsdrinkList(){
     let div = document.createElement("DIV");
     div.classList.add("biscuitsdrinksubItems");
-    biscuitsdrinkList.forEach((list) => {
+    biscuitsdrinksubList.forEach((list) => {
         let span = document.createElement("SPAN");
         span.textContent = list.name
         span.classList.add("biscuitsdrinkList-subitems");
@@ -252,3 +252,60 @@ function addbiscuitsdrinkList(){
 }
 
 addbiscuitsdrinkList();
+
+
+
+// create Fruits & Vegitable subcategorie options
+
+let fruitsvegsubList = [
+    { name: "Fresh Fruits", link: "javascript:void(0)" },
+    { name: "Basic Vegetables", link: "javascript:void(0)" },
+    { name: "Roots, Herbs & Others", link: "javascript:void(0)" },
+    { name: "Premium Fruits & Vegetables", link: "javascript:void(0)" }
+];
+
+function addfruitsvegsubList(){
+    let div = document.createElement("DIV");
+    div.classList.add("fruitsvegsubItems");
+    fruitsvegsubList.forEach((list) => {
+        let span = document.createElement("SPAN");
+        span.textContent = list.name
+        span.classList.add("fruitsvegList-subitems");
+        div.appendChild(span);
+    })
+    document.querySelector("#vegfruitsGroceries").appendChild(div);
+}
+
+addfruitsvegsubList();
+
+
+
+// create Cooking Essential subcategorie options
+
+let cookessentialsubList = [
+    { name: "Atta, Flours & Sooji", link: "javascript:void(0)" },
+    { name: "Dals & Pulses", link: "javascript:void(0)" },
+    { name: "Rice", link: "javascript:void(0)" },
+    { name: "Sabudana, Poha & Murmura", link: "javascript:void(0)" },
+    { name: "Edible Oils", link: "javascript:void(0)" },
+    { name: "Masala, Spices & Mukhwas", link: "javascript:void(0)" },
+    { name: "Salt, Sugar & Jaggery", link: "javascript:void(0)" },
+    { name: "Wheat & Soya", link: "javascript:void(0)" },
+    { name: "Ghee", link: "javascript:void(0)" },
+    { name: "Dry Fruits & Nuts", link: "javascript:void(0)" },
+    { name: "Millets & Other Grains", link: "javascript:void(0)" }
+];
+
+function addcookessentialList(){
+    let div = document.createElement("DIV");
+    div.classList.add("cookessentialsubItems");
+    cookessentialsubList.forEach((list) => {
+        let span = document.createElement("SPAN");
+        span.textContent = list.name
+        span.classList.add("cookessentialList-subitems");
+        div.appendChild(span);
+    })
+    document.querySelector("#cookessentialGroceries").appendChild(div);
+}
+
+addcookessentialList();
