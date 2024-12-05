@@ -309,3 +309,88 @@ function addcookessentialList(){
 }
 
 addcookessentialList();
+
+
+
+// create Dairy bakery subcategorie options
+
+let dairybakeryList = [
+    { name: "Milk & Milk Products", link: "javascript:void(0)" },
+    { name: "Cheese, Paneer & Tofu", link: "javascript:void(0)" },
+    { name: "Batter & Chutney", link: "javascript:void(0)" },
+    { name: "Toast & Khari", link: "javascript:void(0)" },
+    { name: "Cakes & Muffins", link: "javascript:void(0)" },
+    { name: "Breads & Buns", link: "javascript:void(0)" },
+    { name: "Baked Cookies", link: "javascript:void(0)" },
+    { name: "Bakery Snacks", link: "javascript:void(0)" }
+]
+
+function adddairybakeryList(){
+    let div = document.createElement("DIV");
+    div.classList.add("dairybakerysubItems");
+    dairybakeryList.forEach((list) => {
+        let span = document.createElement("SPAN");
+        span.textContent = list.name
+        span.classList.add("dairybakeryList-subitems");
+        div.appendChild(span);
+    })
+    document.querySelector("#dairybackeryGroceries").appendChild(div);
+}
+
+adddairybakeryList();
+
+
+// create Personal care subcategorie options
+
+let personalcareList = [
+    { name: "Hair Care", link: "javascript:void(0)" },
+    { name: "Bath & Hand Wash", link: "javascript:void(0)" },
+    { name: "Oral Care", link: "javascript:void(0)" },
+    { name: "Skin Care", link: "javascript:void(0)" },
+    { name: "Feminine Hygiene", link: "javascript:void(0)" },
+    { name: "Men's Grooming", link: "javascript:void(0)" },
+    { name: "Deo & Fragrances", link: "javascript:void(0)" },
+    { name: "Health & Wellness", link: "javascript:void(0)" }
+]
+
+function addpersonalcareList(){
+    let div = document.createElement("DIV");
+    div.classList.add("personalcaresubItems");
+    personalcareList.forEach((list) => {
+        let span = document.createElement("SPAN");
+        span.textContent = list.name
+        span.classList.add("personalcareList-subitems");
+        div.appendChild(span);
+    })
+    document.querySelector("#personalcareGroceries").appendChild(div);
+}
+
+addpersonalcareList();
+
+
+// create Beauty subcategorie options
+
+let beautyList = [
+    { name: "Face", link: "javascript:void(0)" },
+    { name: "Nails & Lips", link: "javascript:void(0)" },
+    { name: "Eyes", link: "javascript:void(0)" },
+    { name: "Beauty Accessories", link: "javascript:void(0)" }
+]
+
+function addbeautyList(){
+    let div = document.createElement("DIV");
+    div.classList.add("beautysubItems");
+    beautyList.forEach((list) => {
+        let span = document.createElement("SPAN");
+        span.textContent = list.name
+        span.classList.add("beautyList-subitems");
+        div.appendChild(span);
+    })
+    document.querySelector("#beautyGroceries").appendChild(div);
+}
+
+addbeautyList();
+
+
+
+

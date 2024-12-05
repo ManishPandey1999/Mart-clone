@@ -188,8 +188,8 @@ a {
 
 #groceriesItems{
   position: relative;
-  #packagedFoodGroceries, #vegfruitsGroceries, #cookessentialGroceries{
-    .biscuitsdrinksubItems, .fruitsvegsubItems, .cookessentialsubItems{
+  #packagedFoodGroceries, #vegfruitsGroceries, #cookessentialGroceries, #dairybackeryGroceries, #personalcareGroceries, #beautyGroceries{
+    .biscuitsdrinksubItems, .fruitsvegsubItems, .cookessentialsubItems, .dairybakerysubItems, .personalcaresubItems, .beautysubItems{
       display: none;
       flex-direction: column;
       gap: 12px;
@@ -202,7 +202,8 @@ a {
       padding: 15px 20px;
       box-shadow: 0 0 5px #aea8a8;      
       font-size: 15px;
-      .biscuitsdrinkList-subitems, .fruitsvegList-subitems, .cookessentialList-subitems{
+      min-height: 300px;
+      .biscuitsdrinkList-subitems, .fruitsvegList-subitems, .cookessentialList-subitems, .dairybakeryList-subitems, .personalcareList-subitems, .beautyList-subitems{
         transition: 0.4s;
         &:hover{
           color: #0c5273;
@@ -230,5 +231,92 @@ a {
 #cookessentialGroceries:hover{
   .cookessentialsubItems{
     display: flex !important;
+  }
+}
+
+#dairybackeryGroceries:hover{
+  .dairybakerysubItems{
+    display: flex !important;
+  }
+}
+
+#personalcareGroceries:hover{
+  .personalcaresubItems{
+    display: flex !important;
+  }
+}
+
+#beautyGroceries:hover{
+  .beautysubItems{
+    display: flex !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+// Index Page first Slider Section CSS
+
+.main-pagetop-section{
+  padding: 40px 0;
+  .main-page-slide{
+    overflow: hidden;
+    padding: 10px 20px;
+    position: relative;
+    .main-slide-container{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      .slide{
+        width: 360px;
+        
+        img{
+          width: 360px;
+          box-shadow: 0 0 6px #bcb8b8;
+          border-radius: 20px;
+        }
+      }
+    }
+    .slide-move-btn{
+      .next-btn{
+        position: absolute;
+        top: 110px;
+        right: 20px;
+        height: 35px;
+        width: 35px;
+        background-color: #e0fae9;
+        border-radius: 50%;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        span{
+          font-size: 20px;
+          color: #5e5b5b;
+        }
+      }
+      .prev-btn{
+        position: absolute;
+        top: 110px;
+        left: 20px;
+        height: 35px;
+        width: 35px;
+        background-color: #e0fae9;
+        border-radius: 50%;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        span{
+          font-size: 20px;
+          color: #5e5b5b;
+        }
+      }
+    }
   }
 }
