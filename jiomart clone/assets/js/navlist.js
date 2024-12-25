@@ -226,7 +226,7 @@ addwellnessList();
 
 // create Biscuits, Drinks & Packaged Foods subcategorie options
 
-let biscuitsdrinksubList = [
+let biscuitsdrinkList = [
     { name: "Chips & Namkeens", link: "javascript:void(0)" },
     { name: "Biscuits & Cookies", link: "javascript:void(0)" },
     { name: "Chocolates & Candies", link: "javascript:void(0)" },
@@ -242,7 +242,7 @@ let biscuitsdrinksubList = [
 function addbiscuitsdrinkList(){
     let div = document.createElement("DIV");
     div.classList.add("biscuitsdrinksubItems");
-    biscuitsdrinksubList.forEach((list) => {
+    biscuitsdrinkList.forEach((list) => {
         let span = document.createElement("SPAN");
         span.textContent = list.name
         span.classList.add("biscuitsdrinkList-subitems");
@@ -252,145 +252,3 @@ function addbiscuitsdrinkList(){
 }
 
 addbiscuitsdrinkList();
-
-
-
-// create Fruits & Vegitable subcategorie options
-
-let fruitsvegsubList = [
-    { name: "Fresh Fruits", link: "javascript:void(0)" },
-    { name: "Basic Vegetables", link: "javascript:void(0)" },
-    { name: "Roots, Herbs & Others", link: "javascript:void(0)" },
-    { name: "Premium Fruits & Vegetables", link: "javascript:void(0)" }
-];
-
-function addfruitsvegsubList(){
-    let div = document.createElement("DIV");
-    div.classList.add("fruitsvegsubItems");
-    fruitsvegsubList.forEach((list) => {
-        let span = document.createElement("SPAN");
-        span.textContent = list.name
-        span.classList.add("fruitsvegList-subitems");
-        div.appendChild(span);
-    })
-    document.querySelector("#vegfruitsGroceries").appendChild(div);
-}
-
-addfruitsvegsubList();
-
-
-
-// create Cooking Essential subcategorie options
-
-let cookessentialsubList = [
-    { name: "Atta, Flours & Sooji", link: "javascript:void(0)" },
-    { name: "Dals & Pulses", link: "javascript:void(0)" },
-    { name: "Rice", link: "javascript:void(0)" },
-    { name: "Sabudana, Poha & Murmura", link: "javascript:void(0)" },
-    { name: "Edible Oils", link: "javascript:void(0)" },
-    { name: "Masala, Spices & Mukhwas", link: "javascript:void(0)" },
-    { name: "Salt, Sugar & Jaggery", link: "javascript:void(0)" },
-    { name: "Wheat & Soya", link: "javascript:void(0)" },
-    { name: "Ghee", link: "javascript:void(0)" },
-    { name: "Dry Fruits & Nuts", link: "javascript:void(0)" },
-    { name: "Millets & Other Grains", link: "javascript:void(0)" }
-];
-
-function addcookessentialList(){
-    let div = document.createElement("DIV");
-    div.classList.add("cookessentialsubItems");
-    cookessentialsubList.forEach((list) => {
-        let span = document.createElement("SPAN");
-        span.textContent = list.name
-        span.classList.add("cookessentialList-subitems");
-        div.appendChild(span);
-    })
-    document.querySelector("#cookessentialGroceries").appendChild(div);
-}
-
-addcookessentialList();
-
-
-
-// create Dairy bakery subcategorie options
-
-let dairybakeryList = [
-    { name: "Milk & Milk Products", link: "javascript:void(0)" },
-    { name: "Cheese, Paneer & Tofu", link: "javascript:void(0)" },
-    { name: "Batter & Chutney", link: "javascript:void(0)" },
-    { name: "Toast & Khari", link: "javascript:void(0)" },
-    { name: "Cakes & Muffins", link: "javascript:void(0)" },
-    { name: "Breads & Buns", link: "javascript:void(0)" },
-    { name: "Baked Cookies", link: "javascript:void(0)" },
-    { name: "Bakery Snacks", link: "javascript:void(0)" }
-]
-
-function adddairybakeryList(){
-    let div = document.createElement("DIV");
-    div.classList.add("dairybakerysubItems");
-    dairybakeryList.forEach((list) => {
-        let span = document.createElement("SPAN");
-        span.textContent = list.name
-        span.classList.add("dairybakeryList-subitems");
-        div.appendChild(span);
-    })
-    document.querySelector("#dairybackeryGroceries").appendChild(div);
-}
-
-adddairybakeryList();
-
-
-// create Personal care subcategorie options
-
-let personalcareList = [
-    { name: "Hair Care", link: "javascript:void(0)" },
-    { name: "Bath & Hand Wash", link: "javascript:void(0)" },
-    { name: "Oral Care", link: "javascript:void(0)" },
-    { name: "Skin Care", link: "javascript:void(0)" },
-    { name: "Feminine Hygiene", link: "javascript:void(0)" },
-    { name: "Men's Grooming", link: "javascript:void(0)" },
-    { name: "Deo & Fragrances", link: "javascript:void(0)" },
-    { name: "Health & Wellness", link: "javascript:void(0)" }
-]
-
-function addpersonalcareList(){
-    let div = document.createElement("DIV");
-    div.classList.add("personalcaresubItems");
-    personalcareList.forEach((list) => {
-        let span = document.createElement("SPAN");
-        span.textContent = list.name
-        span.classList.add("personalcareList-subitems");
-        div.appendChild(span);
-    })
-    document.querySelector("#personalcareGroceries").appendChild(div);
-}
-
-addpersonalcareList();
-
-
-// create Beauty subcategorie options
-
-let beautyList = [
-    { name: "Face", link: "javascript:void(0)" },
-    { name: "Nails & Lips", link: "javascript:void(0)" },
-    { name: "Eyes", link: "javascript:void(0)" },
-    { name: "Beauty Accessories", link: "javascript:void(0)" }
-]
-
-function addbeautyList(){
-    let div = document.createElement("DIV");
-    div.classList.add("beautysubItems");
-    beautyList.forEach((list) => {
-        let span = document.createElement("SPAN");
-        span.textContent = list.name
-        span.classList.add("beautyList-subitems");
-        div.appendChild(span);
-    })
-    document.querySelector("#beautyGroceries").appendChild(div);
-}
-
-addbeautyList();
-
-
-
-
