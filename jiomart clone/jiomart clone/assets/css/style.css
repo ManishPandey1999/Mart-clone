@@ -1,0 +1,297 @@
+.h1Size {
+  font-size: 48px;
+}
+
+.h2Size {
+  font-size: 36px;
+}
+
+.h3Size {
+  font-size: 24px;
+}
+
+.smPara {
+  font-size: 14px;
+}
+
+.mdPara {
+  font-size: 17px;
+}
+
+.xlPara {
+  font-size: 20px;
+}
+
+.xxlPara {
+  font-size: 23px;
+}
+
+.smBold {
+  font-weight: 500;
+}
+
+.mdBold {
+  font-weight: 600;
+}
+
+.xlBold {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+* {
+  font-family: "Poppins", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-header .main-header {
+  padding: 20px 100px;
+  background-color: #0078ad;
+}
+.top-header .main-header .logo-mall {
+  background-color: rgb(219, 8, 8);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-header .main-header .head-location {
+  cursor: pointer;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+.top-header .main-header .head-location:hover {
+  background-color: #0c5273;
+}
+.top-header .main-header .head-location span {
+  font-size: 16px;
+}
+.top-header .main-header .head-inputbox {
+  width: 50%;
+  justify-content: space-between;
+  background-color: #0c5273;
+  padding: 12px 15px;
+  border-radius: 30px;
+}
+.top-header .main-header .head-inputbox .cursor-pointer {
+  cursor: pointer;
+}
+.top-header .main-header .head-inputbox .product-inputbox {
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.top-header .main-header .head-inputbox .product-inputbox:placeholder {
+  color: #fff;
+}
+.top-header .main-header .head-inputbox .product-inputbox:-moz-placeholder {
+  color: #fff;
+}
+.top-header .main-header .head-inputbox .product-inputbox::-webkit-input-placeholder {
+  color: #fff;
+}
+.top-header .main-nav {
+  background-color: #0c5273;
+  padding: 0 100px;
+}
+.top-header .main-nav .main-navlist {
+  list-style: none;
+}
+.top-header .main-nav .main-navlist .navlistitems {
+  cursor: pointer;
+  font-size: 15px;
+  position: relative;
+  padding: 15px 0;
+}
+.top-header .main-nav .main-navlist .navlistitems .grocerieslistitems, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems, .top-header .main-nav .main-navlist .navlistitems .wellnessItems {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  position: absolute;
+  top: 52px;
+  left: -10px;
+  color: #000;
+  background: #fff;
+  width: 230px;
+  padding: 5px 0 10px 5px;
+  box-shadow: 0 0 5px #aea8a8;
+  border-radius: 10px;
+  font-size: 15px;
+  z-index: 999;
+}
+.top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .fashionlist-items, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .industryProfessList-items, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .preciousjewelleryList-items, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .wellnessList-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .fashionlist-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .industryProfessList-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .preciousjewelleryList-items, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .wellnessList-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .fashionlist-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .industryProfessList-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .preciousjewelleryList-items, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .wellnessList-items, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .fashionlist-items, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .industryProfessList-items, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .preciousjewelleryList-items, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .wellnessList-items, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .fashionlist-items, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .industryProfessList-items, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .preciousjewelleryList-items, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .wellnessList-items, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .fashionlist-items, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .industryProfessList-items, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .preciousjewelleryList-items, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .wellnessList-items, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .grocerieslist-items, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .home-lifestylelist-items, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .electronicslist-items, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .fashionlist-items, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .industryProfessList-items, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .preciousjewelleryList-items, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .wellnessList-items {
+  padding: 7px 10px 7px 15px;
+  border-radius: 25px 0 0 25px;
+}
+.top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .fashionlist-items:hover, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .industryProfessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .preciousjewelleryList-items:hover, .top-header .main-nav .main-navlist .navlistitems .grocerieslistitems .wellnessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .fashionlist-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .industryProfessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .preciousjewelleryList-items:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems .wellnessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .fashionlist-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .industryProfessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .preciousjewelleryList-items:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems .wellnessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .fashionlist-items:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .industryProfessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .preciousjewelleryList-items:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems .wellnessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .fashionlist-items:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .industryProfessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .preciousjewelleryList-items:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems .wellnessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .fashionlist-items:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .industryProfessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .preciousjewelleryList-items:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems .wellnessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .grocerieslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .home-lifestylelist-items:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .electronicslist-items:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .fashionlist-items:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .industryProfessList-items:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .preciousjewelleryList-items:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems .wellnessList-items:hover {
+  background-color: #e0fae9;
+}
+.top-header .main-nav .main-navlist .navlistitems .grocerieslistitems:hover, .top-header .main-nav .main-navlist .navlistitems .homeLifestylelistitems:hover, .top-header .main-nav .main-navlist .navlistitems .electronicslistitems:hover, .top-header .main-nav .main-navlist .navlistitems .fashionlistitems:hover, .top-header .main-nav .main-navlist .navlistitems .industryProfessListItems:hover, .top-header .main-nav .main-navlist .navlistitems .preciousjewelleryItems:hover, .top-header .main-nav .main-navlist .navlistitems .wellnessItems:hover {
+  display: flex;
+}
+
+#groceriesItems:hover #ingroceriesItems {
+  border-bottom: 3px solid #5ecefa;
+}
+#groceriesItems:hover .grocerieslistitems {
+  display: flex;
+}
+
+#homeLifestyleItems:hover #inhomeLifestyleItems {
+  border-bottom: 3px solid #5ecefa;
+}
+#homeLifestyleItems:hover .homeLifestylelistitems {
+  display: flex;
+}
+
+#electronicsItems:hover #inelectronicsItems {
+  border-bottom: 3px solid #5ecefa;
+}
+#electronicsItems:hover .electronicslistitems {
+  display: flex;
+}
+
+#fashionItems:hover #infashionItems {
+  border-bottom: 3px solid #5ecefa;
+}
+#fashionItems:hover .fashionlistitems {
+  display: flex;
+}
+
+#industrialItems:hover #inindustrialItems {
+  border-bottom: 3px solid #5ecefa;
+}
+#industrialItems:hover .industryProfessListItems {
+  display: flex;
+}
+
+#jewelleryItems:hover #injewelleryItems {
+  border-bottom: 3px solid #5ecefa;
+}
+#jewelleryItems:hover .preciousjewelleryItems {
+  display: flex;
+}
+
+#wellnessItems:hover #inwellnessItems {
+  border-bottom: 3px solid #5ecefa;
+}
+#wellnessItems:hover .wellnessItems {
+  display: flex;
+}
+
+#groceriesItems {
+  position: relative;
+}
+#groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems, #groceriesItems #packagedFoodGroceries .cookessentialsubItems, #groceriesItems #packagedFoodGroceries .dairybakerysubItems, #groceriesItems #packagedFoodGroceries .personalcaresubItems, #groceriesItems #packagedFoodGroceries .beautysubItems, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems, #groceriesItems #vegfruitsGroceries .cookessentialsubItems, #groceriesItems #vegfruitsGroceries .dairybakerysubItems, #groceriesItems #vegfruitsGroceries .personalcaresubItems, #groceriesItems #vegfruitsGroceries .beautysubItems, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems, #groceriesItems #cookessentialGroceries .fruitsvegsubItems, #groceriesItems #cookessentialGroceries .cookessentialsubItems, #groceriesItems #cookessentialGroceries .dairybakerysubItems, #groceriesItems #cookessentialGroceries .personalcaresubItems, #groceriesItems #cookessentialGroceries .beautysubItems, #groceriesItems #dairybackeryGroceries .biscuitsdrinksubItems, #groceriesItems #dairybackeryGroceries .fruitsvegsubItems, #groceriesItems #dairybackeryGroceries .cookessentialsubItems, #groceriesItems #dairybackeryGroceries .dairybakerysubItems, #groceriesItems #dairybackeryGroceries .personalcaresubItems, #groceriesItems #dairybackeryGroceries .beautysubItems, #groceriesItems #personalcareGroceries .biscuitsdrinksubItems, #groceriesItems #personalcareGroceries .fruitsvegsubItems, #groceriesItems #personalcareGroceries .cookessentialsubItems, #groceriesItems #personalcareGroceries .dairybakerysubItems, #groceriesItems #personalcareGroceries .personalcaresubItems, #groceriesItems #personalcareGroceries .beautysubItems, #groceriesItems #beautyGroceries .biscuitsdrinksubItems, #groceriesItems #beautyGroceries .fruitsvegsubItems, #groceriesItems #beautyGroceries .cookessentialsubItems, #groceriesItems #beautyGroceries .dairybakerysubItems, #groceriesItems #beautyGroceries .personalcaresubItems, #groceriesItems #beautyGroceries .beautysubItems {
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  position: absolute;
+  top: 0;
+  left: 230px;
+  color: #000;
+  background: #fff;
+  width: 230px;
+  padding: 15px 20px;
+  box-shadow: 0 0 5px #aea8a8;
+  font-size: 15px;
+  min-height: 300px;
+}
+#groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems, #groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .fruitsvegList-subitems, #groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .cookessentialList-subitems, #groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .dairybakeryList-subitems, #groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .personalcareList-subitems, #groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .beautyList-subitems, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .fruitsvegList-subitems, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .cookessentialList-subitems, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .dairybakeryList-subitems, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .personalcareList-subitems, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .beautyList-subitems, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .biscuitsdrinkList-subitems, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .fruitsvegList-subitems, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .cookessentialList-subitems, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .dairybakeryList-subitems, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .personalcareList-subitems, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .beautyList-subitems, #groceriesItems #packagedFoodGroceries .dairybakerysubItems .biscuitsdrinkList-subitems, #groceriesItems #packagedFoodGroceries .dairybakerysubItems .fruitsvegList-subitems, #groceriesItems #packagedFoodGroceries .dairybakerysubItems .cookessentialList-subitems, #groceriesItems #packagedFoodGroceries .dairybakerysubItems .dairybakeryList-subitems, #groceriesItems #packagedFoodGroceries .dairybakerysubItems .personalcareList-subitems, #groceriesItems #packagedFoodGroceries .dairybakerysubItems .beautyList-subitems, #groceriesItems #packagedFoodGroceries .personalcaresubItems .biscuitsdrinkList-subitems, #groceriesItems #packagedFoodGroceries .personalcaresubItems .fruitsvegList-subitems, #groceriesItems #packagedFoodGroceries .personalcaresubItems .cookessentialList-subitems, #groceriesItems #packagedFoodGroceries .personalcaresubItems .dairybakeryList-subitems, #groceriesItems #packagedFoodGroceries .personalcaresubItems .personalcareList-subitems, #groceriesItems #packagedFoodGroceries .personalcaresubItems .beautyList-subitems, #groceriesItems #packagedFoodGroceries .beautysubItems .biscuitsdrinkList-subitems, #groceriesItems #packagedFoodGroceries .beautysubItems .fruitsvegList-subitems, #groceriesItems #packagedFoodGroceries .beautysubItems .cookessentialList-subitems, #groceriesItems #packagedFoodGroceries .beautysubItems .dairybakeryList-subitems, #groceriesItems #packagedFoodGroceries .beautysubItems .personalcareList-subitems, #groceriesItems #packagedFoodGroceries .beautysubItems .beautyList-subitems, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .fruitsvegList-subitems, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .cookessentialList-subitems, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .dairybakeryList-subitems, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .personalcareList-subitems, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .beautyList-subitems, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .fruitsvegList-subitems, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .cookessentialList-subitems, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .dairybakeryList-subitems, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .personalcareList-subitems, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .beautyList-subitems, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .biscuitsdrinkList-subitems, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .fruitsvegList-subitems, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .cookessentialList-subitems, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .dairybakeryList-subitems, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .personalcareList-subitems, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .beautyList-subitems, #groceriesItems #vegfruitsGroceries .dairybakerysubItems .biscuitsdrinkList-subitems, #groceriesItems #vegfruitsGroceries .dairybakerysubItems .fruitsvegList-subitems, #groceriesItems #vegfruitsGroceries .dairybakerysubItems .cookessentialList-subitems, #groceriesItems #vegfruitsGroceries .dairybakerysubItems .dairybakeryList-subitems, #groceriesItems #vegfruitsGroceries .dairybakerysubItems .personalcareList-subitems, #groceriesItems #vegfruitsGroceries .dairybakerysubItems .beautyList-subitems, #groceriesItems #vegfruitsGroceries .personalcaresubItems .biscuitsdrinkList-subitems, #groceriesItems #vegfruitsGroceries .personalcaresubItems .fruitsvegList-subitems, #groceriesItems #vegfruitsGroceries .personalcaresubItems .cookessentialList-subitems, #groceriesItems #vegfruitsGroceries .personalcaresubItems .dairybakeryList-subitems, #groceriesItems #vegfruitsGroceries .personalcaresubItems .personalcareList-subitems, #groceriesItems #vegfruitsGroceries .personalcaresubItems .beautyList-subitems, #groceriesItems #vegfruitsGroceries .beautysubItems .biscuitsdrinkList-subitems, #groceriesItems #vegfruitsGroceries .beautysubItems .fruitsvegList-subitems, #groceriesItems #vegfruitsGroceries .beautysubItems .cookessentialList-subitems, #groceriesItems #vegfruitsGroceries .beautysubItems .dairybakeryList-subitems, #groceriesItems #vegfruitsGroceries .beautysubItems .personalcareList-subitems, #groceriesItems #vegfruitsGroceries .beautysubItems .beautyList-subitems, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .fruitsvegList-subitems, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .cookessentialList-subitems, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .dairybakeryList-subitems, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .personalcareList-subitems, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .beautyList-subitems, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .fruitsvegList-subitems, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .cookessentialList-subitems, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .dairybakeryList-subitems, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .personalcareList-subitems, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .beautyList-subitems, #groceriesItems #cookessentialGroceries .cookessentialsubItems .biscuitsdrinkList-subitems, #groceriesItems #cookessentialGroceries .cookessentialsubItems .fruitsvegList-subitems, #groceriesItems #cookessentialGroceries .cookessentialsubItems .cookessentialList-subitems, #groceriesItems #cookessentialGroceries .cookessentialsubItems .dairybakeryList-subitems, #groceriesItems #cookessentialGroceries .cookessentialsubItems .personalcareList-subitems, #groceriesItems #cookessentialGroceries .cookessentialsubItems .beautyList-subitems, #groceriesItems #cookessentialGroceries .dairybakerysubItems .biscuitsdrinkList-subitems, #groceriesItems #cookessentialGroceries .dairybakerysubItems .fruitsvegList-subitems, #groceriesItems #cookessentialGroceries .dairybakerysubItems .cookessentialList-subitems, #groceriesItems #cookessentialGroceries .dairybakerysubItems .dairybakeryList-subitems, #groceriesItems #cookessentialGroceries .dairybakerysubItems .personalcareList-subitems, #groceriesItems #cookessentialGroceries .dairybakerysubItems .beautyList-subitems, #groceriesItems #cookessentialGroceries .personalcaresubItems .biscuitsdrinkList-subitems, #groceriesItems #cookessentialGroceries .personalcaresubItems .fruitsvegList-subitems, #groceriesItems #cookessentialGroceries .personalcaresubItems .cookessentialList-subitems, #groceriesItems #cookessentialGroceries .personalcaresubItems .dairybakeryList-subitems, #groceriesItems #cookessentialGroceries .personalcaresubItems .personalcareList-subitems, #groceriesItems #cookessentialGroceries .personalcaresubItems .beautyList-subitems, #groceriesItems #cookessentialGroceries .beautysubItems .biscuitsdrinkList-subitems, #groceriesItems #cookessentialGroceries .beautysubItems .fruitsvegList-subitems, #groceriesItems #cookessentialGroceries .beautysubItems .cookessentialList-subitems, #groceriesItems #cookessentialGroceries .beautysubItems .dairybakeryList-subitems, #groceriesItems #cookessentialGroceries .beautysubItems .personalcareList-subitems, #groceriesItems #cookessentialGroceries .beautysubItems .beautyList-subitems, #groceriesItems #dairybackeryGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems, #groceriesItems #dairybackeryGroceries .biscuitsdrinksubItems .fruitsvegList-subitems, #groceriesItems #dairybackeryGroceries .biscuitsdrinksubItems .cookessentialList-subitems, #groceriesItems #dairybackeryGroceries .biscuitsdrinksubItems .dairybakeryList-subitems, #groceriesItems #dairybackeryGroceries .biscuitsdrinksubItems .personalcareList-subitems, #groceriesItems #dairybackeryGroceries .biscuitsdrinksubItems .beautyList-subitems, #groceriesItems #dairybackeryGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems, #groceriesItems #dairybackeryGroceries .fruitsvegsubItems .fruitsvegList-subitems, #groceriesItems #dairybackeryGroceries .fruitsvegsubItems .cookessentialList-subitems, #groceriesItems #dairybackeryGroceries .fruitsvegsubItems .dairybakeryList-subitems, #groceriesItems #dairybackeryGroceries .fruitsvegsubItems .personalcareList-subitems, #groceriesItems #dairybackeryGroceries .fruitsvegsubItems .beautyList-subitems, #groceriesItems #dairybackeryGroceries .cookessentialsubItems .biscuitsdrinkList-subitems, #groceriesItems #dairybackeryGroceries .cookessentialsubItems .fruitsvegList-subitems, #groceriesItems #dairybackeryGroceries .cookessentialsubItems .cookessentialList-subitems, #groceriesItems #dairybackeryGroceries .cookessentialsubItems .dairybakeryList-subitems, #groceriesItems #dairybackeryGroceries .cookessentialsubItems .personalcareList-subitems, #groceriesItems #dairybackeryGroceries .cookessentialsubItems .beautyList-subitems, #groceriesItems #dairybackeryGroceries .dairybakerysubItems .biscuitsdrinkList-subitems, #groceriesItems #dairybackeryGroceries .dairybakerysubItems .fruitsvegList-subitems, #groceriesItems #dairybackeryGroceries .dairybakerysubItems .cookessentialList-subitems, #groceriesItems #dairybackeryGroceries .dairybakerysubItems .dairybakeryList-subitems, #groceriesItems #dairybackeryGroceries .dairybakerysubItems .personalcareList-subitems, #groceriesItems #dairybackeryGroceries .dairybakerysubItems .beautyList-subitems, #groceriesItems #dairybackeryGroceries .personalcaresubItems .biscuitsdrinkList-subitems, #groceriesItems #dairybackeryGroceries .personalcaresubItems .fruitsvegList-subitems, #groceriesItems #dairybackeryGroceries .personalcaresubItems .cookessentialList-subitems, #groceriesItems #dairybackeryGroceries .personalcaresubItems .dairybakeryList-subitems, #groceriesItems #dairybackeryGroceries .personalcaresubItems .personalcareList-subitems, #groceriesItems #dairybackeryGroceries .personalcaresubItems .beautyList-subitems, #groceriesItems #dairybackeryGroceries .beautysubItems .biscuitsdrinkList-subitems, #groceriesItems #dairybackeryGroceries .beautysubItems .fruitsvegList-subitems, #groceriesItems #dairybackeryGroceries .beautysubItems .cookessentialList-subitems, #groceriesItems #dairybackeryGroceries .beautysubItems .dairybakeryList-subitems, #groceriesItems #dairybackeryGroceries .beautysubItems .personalcareList-subitems, #groceriesItems #dairybackeryGroceries .beautysubItems .beautyList-subitems, #groceriesItems #personalcareGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems, #groceriesItems #personalcareGroceries .biscuitsdrinksubItems .fruitsvegList-subitems, #groceriesItems #personalcareGroceries .biscuitsdrinksubItems .cookessentialList-subitems, #groceriesItems #personalcareGroceries .biscuitsdrinksubItems .dairybakeryList-subitems, #groceriesItems #personalcareGroceries .biscuitsdrinksubItems .personalcareList-subitems, #groceriesItems #personalcareGroceries .biscuitsdrinksubItems .beautyList-subitems, #groceriesItems #personalcareGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems, #groceriesItems #personalcareGroceries .fruitsvegsubItems .fruitsvegList-subitems, #groceriesItems #personalcareGroceries .fruitsvegsubItems .cookessentialList-subitems, #groceriesItems #personalcareGroceries .fruitsvegsubItems .dairybakeryList-subitems, #groceriesItems #personalcareGroceries .fruitsvegsubItems .personalcareList-subitems, #groceriesItems #personalcareGroceries .fruitsvegsubItems .beautyList-subitems, #groceriesItems #personalcareGroceries .cookessentialsubItems .biscuitsdrinkList-subitems, #groceriesItems #personalcareGroceries .cookessentialsubItems .fruitsvegList-subitems, #groceriesItems #personalcareGroceries .cookessentialsubItems .cookessentialList-subitems, #groceriesItems #personalcareGroceries .cookessentialsubItems .dairybakeryList-subitems, #groceriesItems #personalcareGroceries .cookessentialsubItems .personalcareList-subitems, #groceriesItems #personalcareGroceries .cookessentialsubItems .beautyList-subitems, #groceriesItems #personalcareGroceries .dairybakerysubItems .biscuitsdrinkList-subitems, #groceriesItems #personalcareGroceries .dairybakerysubItems .fruitsvegList-subitems, #groceriesItems #personalcareGroceries .dairybakerysubItems .cookessentialList-subitems, #groceriesItems #personalcareGroceries .dairybakerysubItems .dairybakeryList-subitems, #groceriesItems #personalcareGroceries .dairybakerysubItems .personalcareList-subitems, #groceriesItems #personalcareGroceries .dairybakerysubItems .beautyList-subitems, #groceriesItems #personalcareGroceries .personalcaresubItems .biscuitsdrinkList-subitems, #groceriesItems #personalcareGroceries .personalcaresubItems .fruitsvegList-subitems, #groceriesItems #personalcareGroceries .personalcaresubItems .cookessentialList-subitems, #groceriesItems #personalcareGroceries .personalcaresubItems .dairybakeryList-subitems, #groceriesItems #personalcareGroceries .personalcaresubItems .personalcareList-subitems, #groceriesItems #personalcareGroceries .personalcaresubItems .beautyList-subitems, #groceriesItems #personalcareGroceries .beautysubItems .biscuitsdrinkList-subitems, #groceriesItems #personalcareGroceries .beautysubItems .fruitsvegList-subitems, #groceriesItems #personalcareGroceries .beautysubItems .cookessentialList-subitems, #groceriesItems #personalcareGroceries .beautysubItems .dairybakeryList-subitems, #groceriesItems #personalcareGroceries .beautysubItems .personalcareList-subitems, #groceriesItems #personalcareGroceries .beautysubItems .beautyList-subitems, #groceriesItems #beautyGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems, #groceriesItems #beautyGroceries .biscuitsdrinksubItems .fruitsvegList-subitems, #groceriesItems #beautyGroceries .biscuitsdrinksubItems .cookessentialList-subitems, #groceriesItems #beautyGroceries .biscuitsdrinksubItems .dairybakeryList-subitems, #groceriesItems #beautyGroceries .biscuitsdrinksubItems .personalcareList-subitems, #groceriesItems #beautyGroceries .biscuitsdrinksubItems .beautyList-subitems, #groceriesItems #beautyGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems, #groceriesItems #beautyGroceries .fruitsvegsubItems .fruitsvegList-subitems, #groceriesItems #beautyGroceries .fruitsvegsubItems .cookessentialList-subitems, #groceriesItems #beautyGroceries .fruitsvegsubItems .dairybakeryList-subitems, #groceriesItems #beautyGroceries .fruitsvegsubItems .personalcareList-subitems, #groceriesItems #beautyGroceries .fruitsvegsubItems .beautyList-subitems, #groceriesItems #beautyGroceries .cookessentialsubItems .biscuitsdrinkList-subitems, #groceriesItems #beautyGroceries .cookessentialsubItems .fruitsvegList-subitems, #groceriesItems #beautyGroceries .cookessentialsubItems .cookessentialList-subitems, #groceriesItems #beautyGroceries .cookessentialsubItems .dairybakeryList-subitems, #groceriesItems #beautyGroceries .cookessentialsubItems .personalcareList-subitems, #groceriesItems #beautyGroceries .cookessentialsubItems .beautyList-subitems, #groceriesItems #beautyGroceries .dairybakerysubItems .biscuitsdrinkList-subitems, #groceriesItems #beautyGroceries .dairybakerysubItems .fruitsvegList-subitems, #groceriesItems #beautyGroceries .dairybakerysubItems .cookessentialList-subitems, #groceriesItems #beautyGroceries .dairybakerysubItems .dairybakeryList-subitems, #groceriesItems #beautyGroceries .dairybakerysubItems .personalcareList-subitems, #groceriesItems #beautyGroceries .dairybakerysubItems .beautyList-subitems, #groceriesItems #beautyGroceries .personalcaresubItems .biscuitsdrinkList-subitems, #groceriesItems #beautyGroceries .personalcaresubItems .fruitsvegList-subitems, #groceriesItems #beautyGroceries .personalcaresubItems .cookessentialList-subitems, #groceriesItems #beautyGroceries .personalcaresubItems .dairybakeryList-subitems, #groceriesItems #beautyGroceries .personalcaresubItems .personalcareList-subitems, #groceriesItems #beautyGroceries .personalcaresubItems .beautyList-subitems, #groceriesItems #beautyGroceries .beautysubItems .biscuitsdrinkList-subitems, #groceriesItems #beautyGroceries .beautysubItems .fruitsvegList-subitems, #groceriesItems #beautyGroceries .beautysubItems .cookessentialList-subitems, #groceriesItems #beautyGroceries .beautysubItems .dairybakeryList-subitems, #groceriesItems #beautyGroceries .beautysubItems .personalcareList-subitems, #groceriesItems #beautyGroceries .beautysubItems .beautyList-subitems {
+  transition: 0.4s;
+}
+#groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .fruitsvegList-subitems:hover, #groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .cookessentialList-subitems:hover, #groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .dairybakeryList-subitems:hover, #groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .personalcareList-subitems:hover, #groceriesItems #packagedFoodGroceries .biscuitsdrinksubItems .beautyList-subitems:hover, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .fruitsvegList-subitems:hover, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .cookessentialList-subitems:hover, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .dairybakeryList-subitems:hover, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .personalcareList-subitems:hover, #groceriesItems #packagedFoodGroceries .fruitsvegsubItems .beautyList-subitems:hover, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .fruitsvegList-subitems:hover, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .cookessentialList-subitems:hover, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .dairybakeryList-subitems:hover, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .personalcareList-subitems:hover, #groceriesItems #packagedFoodGroceries .cookessentialsubItems .beautyList-subitems:hover, #groceriesItems #packagedFoodGroceries .dairybakerysubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #packagedFoodGroceries .dairybakerysubItems .fruitsvegList-subitems:hover, #groceriesItems #packagedFoodGroceries .dairybakerysubItems .cookessentialList-subitems:hover, #groceriesItems #packagedFoodGroceries .dairybakerysubItems .dairybakeryList-subitems:hover, #groceriesItems #packagedFoodGroceries .dairybakerysubItems .personalcareList-subitems:hover, #groceriesItems #packagedFoodGroceries .dairybakerysubItems .beautyList-subitems:hover, #groceriesItems #packagedFoodGroceries .personalcaresubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #packagedFoodGroceries .personalcaresubItems .fruitsvegList-subitems:hover, #groceriesItems #packagedFoodGroceries .personalcaresubItems .cookessentialList-subitems:hover, #groceriesItems #packagedFoodGroceries .personalcaresubItems .dairybakeryList-subitems:hover, #groceriesItems #packagedFoodGroceries .personalcaresubItems .personalcareList-subitems:hover, #groceriesItems #packagedFoodGroceries .personalcaresubItems .beautyList-subitems:hover, #groceriesItems #packagedFoodGroceries .beautysubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #packagedFoodGroceries .beautysubItems .fruitsvegList-subitems:hover, #groceriesItems #packagedFoodGroceries .beautysubItems .cookessentialList-subitems:hover, #groceriesItems #packagedFoodGroceries .beautysubItems .dairybakeryList-subitems:hover, #groceriesItems #packagedFoodGroceries .beautysubItems .personalcareList-subitems:hover, #groceriesItems #packagedFoodGroceries .beautysubItems .beautyList-subitems:hover, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .fruitsvegList-subitems:hover, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .cookessentialList-subitems:hover, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .dairybakeryList-subitems:hover, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .personalcareList-subitems:hover, #groceriesItems #vegfruitsGroceries .biscuitsdrinksubItems .beautyList-subitems:hover, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .fruitsvegList-subitems:hover, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .cookessentialList-subitems:hover, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .dairybakeryList-subitems:hover, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .personalcareList-subitems:hover, #groceriesItems #vegfruitsGroceries .fruitsvegsubItems .beautyList-subitems:hover, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .fruitsvegList-subitems:hover, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .cookessentialList-subitems:hover, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .dairybakeryList-subitems:hover, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .personalcareList-subitems:hover, #groceriesItems #vegfruitsGroceries .cookessentialsubItems .beautyList-subitems:hover, #groceriesItems #vegfruitsGroceries .dairybakerysubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #vegfruitsGroceries .dairybakerysubItems .fruitsvegList-subitems:hover, #groceriesItems #vegfruitsGroceries .dairybakerysubItems .cookessentialList-subitems:hover, #groceriesItems #vegfruitsGroceries .dairybakerysubItems .dairybakeryList-subitems:hover, #groceriesItems #vegfruitsGroceries .dairybakerysubItems .personalcareList-subitems:hover, #groceriesItems #vegfruitsGroceries .dairybakerysubItems .beautyList-subitems:hover, #groceriesItems #vegfruitsGroceries .personalcaresubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #vegfruitsGroceries .personalcaresubItems .fruitsvegList-subitems:hover, #groceriesItems #vegfruitsGroceries .personalcaresubItems .cookessentialList-subitems:hover, #groceriesItems #vegfruitsGroceries .personalcaresubItems .dairybakeryList-subitems:hover, #groceriesItems #vegfruitsGroceries .personalcaresubItems .personalcareList-subitems:hover, #groceriesItems #vegfruitsGroceries .personalcaresubItems .beautyList-subitems:hover, #groceriesItems #vegfruitsGroceries .beautysubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #vegfruitsGroceries .beautysubItems .fruitsvegList-subitems:hover, #groceriesItems #vegfruitsGroceries .beautysubItems .cookessentialList-subitems:hover, #groceriesItems #vegfruitsGroceries .beautysubItems .dairybakeryList-subitems:hover, #groceriesItems #vegfruitsGroceries .beautysubItems .personalcareList-subitems:hover, #groceriesItems #vegfruitsGroceries .beautysubItems .beautyList-subitems:hover, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .fruitsvegList-subitems:hover, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .cookessentialList-subitems:hover, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .dairybakeryList-subitems:hover, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .personalcareList-subitems:hover, #groceriesItems #cookessentialGroceries .biscuitsdrinksubItems .beautyList-subitems:hover, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .fruitsvegList-subitems:hover, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .cookessentialList-subitems:hover, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .dairybakeryList-subitems:hover, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .personalcareList-subitems:hover, #groceriesItems #cookessentialGroceries .fruitsvegsubItems .beautyList-subitems:hover, #groceriesItems #cookessentialGroceries .cookessentialsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #cookessentialGroceries .cookessentialsubItems .fruitsvegList-subitems:hover, #groceriesItems #cookessentialGroceries .cookessentialsubItems .cookessentialList-subitems:hover, #groceriesItems #cookessentialGroceries .cookessentialsubItems .dairybakeryList-subitems:hover, #groceriesItems #cookessentialGroceries .cookessentialsubItems .personalcareList-subitems:hover, #groceriesItems #cookessentialGroceries .cookessentialsubItems .beautyList-subitems:hover, #groceriesItems #cookessentialGroceries .dairybakerysubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #cookessentialGroceries .dairybakerysubItems .fruitsvegList-subitems:hover, #groceriesItems #cookessentialGroceries .dairybakerysubItems .cookessentialList-subitems:hover, #groceriesItems #cookessentialGroceries .dairybakerysubItems .dairybakeryList-subitems:hover, #groceriesItems #cookessentialGroceries .dairybakerysubItems .personalcareList-subitems:hover, #groceriesItems #cookessentialGroceries .dairybakerysubItems .beautyList-subitems:hover, #groceriesItems #cookessentialGroceries .personalcaresubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #cookessentialGroceries .personalcaresubItems .fruitsvegList-subitems:hover, #groceriesItems #cookessentialGroceries .personalcaresubItems .cookessentialList-subitems:hover, #groceriesItems #cookessentialGroceries .personalcaresubItems .dairybakeryList-subitems:hover, #groceriesItems #cookessentialGroceries .personalcaresubItems .personalcareList-subitems:hover, #groceriesItems #cookessentialGroceries .personalcaresubItems .beautyList-subitems:hover, #groceriesItems #cookessentialGroceries .beautysubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #cookessentialGroceries .beautysubItems .fruitsvegList-subitems:hover, #groceriesItems #cookessentialGroceries .beautysubItems .cookessentialList-subitems:hover, #groceriesItems #cookessentialGroceries .beautysubItems .dairybakeryList-subitems:hover, #groceriesItems #cookessentialGroceries .beautysubItems .personalcareList-subitems:hover, #groceriesItems #cookessentialGroceries .beautysubItems .beautyList-subitems:hover, #groceriesItems #dairybackeryGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #dairybackeryGroceries .biscuitsdrinksubItems .fruitsvegList-subitems:hover, #groceriesItems #dairybackeryGroceries .biscuitsdrinksubItems .cookessentialList-subitems:hover, #groceriesItems #dairybackeryGroceries .biscuitsdrinksubItems .dairybakeryList-subitems:hover, #groceriesItems #dairybackeryGroceries .biscuitsdrinksubItems .personalcareList-subitems:hover, #groceriesItems #dairybackeryGroceries .biscuitsdrinksubItems .beautyList-subitems:hover, #groceriesItems #dairybackeryGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #dairybackeryGroceries .fruitsvegsubItems .fruitsvegList-subitems:hover, #groceriesItems #dairybackeryGroceries .fruitsvegsubItems .cookessentialList-subitems:hover, #groceriesItems #dairybackeryGroceries .fruitsvegsubItems .dairybakeryList-subitems:hover, #groceriesItems #dairybackeryGroceries .fruitsvegsubItems .personalcareList-subitems:hover, #groceriesItems #dairybackeryGroceries .fruitsvegsubItems .beautyList-subitems:hover, #groceriesItems #dairybackeryGroceries .cookessentialsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #dairybackeryGroceries .cookessentialsubItems .fruitsvegList-subitems:hover, #groceriesItems #dairybackeryGroceries .cookessentialsubItems .cookessentialList-subitems:hover, #groceriesItems #dairybackeryGroceries .cookessentialsubItems .dairybakeryList-subitems:hover, #groceriesItems #dairybackeryGroceries .cookessentialsubItems .personalcareList-subitems:hover, #groceriesItems #dairybackeryGroceries .cookessentialsubItems .beautyList-subitems:hover, #groceriesItems #dairybackeryGroceries .dairybakerysubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #dairybackeryGroceries .dairybakerysubItems .fruitsvegList-subitems:hover, #groceriesItems #dairybackeryGroceries .dairybakerysubItems .cookessentialList-subitems:hover, #groceriesItems #dairybackeryGroceries .dairybakerysubItems .dairybakeryList-subitems:hover, #groceriesItems #dairybackeryGroceries .dairybakerysubItems .personalcareList-subitems:hover, #groceriesItems #dairybackeryGroceries .dairybakerysubItems .beautyList-subitems:hover, #groceriesItems #dairybackeryGroceries .personalcaresubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #dairybackeryGroceries .personalcaresubItems .fruitsvegList-subitems:hover, #groceriesItems #dairybackeryGroceries .personalcaresubItems .cookessentialList-subitems:hover, #groceriesItems #dairybackeryGroceries .personalcaresubItems .dairybakeryList-subitems:hover, #groceriesItems #dairybackeryGroceries .personalcaresubItems .personalcareList-subitems:hover, #groceriesItems #dairybackeryGroceries .personalcaresubItems .beautyList-subitems:hover, #groceriesItems #dairybackeryGroceries .beautysubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #dairybackeryGroceries .beautysubItems .fruitsvegList-subitems:hover, #groceriesItems #dairybackeryGroceries .beautysubItems .cookessentialList-subitems:hover, #groceriesItems #dairybackeryGroceries .beautysubItems .dairybakeryList-subitems:hover, #groceriesItems #dairybackeryGroceries .beautysubItems .personalcareList-subitems:hover, #groceriesItems #dairybackeryGroceries .beautysubItems .beautyList-subitems:hover, #groceriesItems #personalcareGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #personalcareGroceries .biscuitsdrinksubItems .fruitsvegList-subitems:hover, #groceriesItems #personalcareGroceries .biscuitsdrinksubItems .cookessentialList-subitems:hover, #groceriesItems #personalcareGroceries .biscuitsdrinksubItems .dairybakeryList-subitems:hover, #groceriesItems #personalcareGroceries .biscuitsdrinksubItems .personalcareList-subitems:hover, #groceriesItems #personalcareGroceries .biscuitsdrinksubItems .beautyList-subitems:hover, #groceriesItems #personalcareGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #personalcareGroceries .fruitsvegsubItems .fruitsvegList-subitems:hover, #groceriesItems #personalcareGroceries .fruitsvegsubItems .cookessentialList-subitems:hover, #groceriesItems #personalcareGroceries .fruitsvegsubItems .dairybakeryList-subitems:hover, #groceriesItems #personalcareGroceries .fruitsvegsubItems .personalcareList-subitems:hover, #groceriesItems #personalcareGroceries .fruitsvegsubItems .beautyList-subitems:hover, #groceriesItems #personalcareGroceries .cookessentialsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #personalcareGroceries .cookessentialsubItems .fruitsvegList-subitems:hover, #groceriesItems #personalcareGroceries .cookessentialsubItems .cookessentialList-subitems:hover, #groceriesItems #personalcareGroceries .cookessentialsubItems .dairybakeryList-subitems:hover, #groceriesItems #personalcareGroceries .cookessentialsubItems .personalcareList-subitems:hover, #groceriesItems #personalcareGroceries .cookessentialsubItems .beautyList-subitems:hover, #groceriesItems #personalcareGroceries .dairybakerysubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #personalcareGroceries .dairybakerysubItems .fruitsvegList-subitems:hover, #groceriesItems #personalcareGroceries .dairybakerysubItems .cookessentialList-subitems:hover, #groceriesItems #personalcareGroceries .dairybakerysubItems .dairybakeryList-subitems:hover, #groceriesItems #personalcareGroceries .dairybakerysubItems .personalcareList-subitems:hover, #groceriesItems #personalcareGroceries .dairybakerysubItems .beautyList-subitems:hover, #groceriesItems #personalcareGroceries .personalcaresubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #personalcareGroceries .personalcaresubItems .fruitsvegList-subitems:hover, #groceriesItems #personalcareGroceries .personalcaresubItems .cookessentialList-subitems:hover, #groceriesItems #personalcareGroceries .personalcaresubItems .dairybakeryList-subitems:hover, #groceriesItems #personalcareGroceries .personalcaresubItems .personalcareList-subitems:hover, #groceriesItems #personalcareGroceries .personalcaresubItems .beautyList-subitems:hover, #groceriesItems #personalcareGroceries .beautysubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #personalcareGroceries .beautysubItems .fruitsvegList-subitems:hover, #groceriesItems #personalcareGroceries .beautysubItems .cookessentialList-subitems:hover, #groceriesItems #personalcareGroceries .beautysubItems .dairybakeryList-subitems:hover, #groceriesItems #personalcareGroceries .beautysubItems .personalcareList-subitems:hover, #groceriesItems #personalcareGroceries .beautysubItems .beautyList-subitems:hover, #groceriesItems #beautyGroceries .biscuitsdrinksubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #beautyGroceries .biscuitsdrinksubItems .fruitsvegList-subitems:hover, #groceriesItems #beautyGroceries .biscuitsdrinksubItems .cookessentialList-subitems:hover, #groceriesItems #beautyGroceries .biscuitsdrinksubItems .dairybakeryList-subitems:hover, #groceriesItems #beautyGroceries .biscuitsdrinksubItems .personalcareList-subitems:hover, #groceriesItems #beautyGroceries .biscuitsdrinksubItems .beautyList-subitems:hover, #groceriesItems #beautyGroceries .fruitsvegsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #beautyGroceries .fruitsvegsubItems .fruitsvegList-subitems:hover, #groceriesItems #beautyGroceries .fruitsvegsubItems .cookessentialList-subitems:hover, #groceriesItems #beautyGroceries .fruitsvegsubItems .dairybakeryList-subitems:hover, #groceriesItems #beautyGroceries .fruitsvegsubItems .personalcareList-subitems:hover, #groceriesItems #beautyGroceries .fruitsvegsubItems .beautyList-subitems:hover, #groceriesItems #beautyGroceries .cookessentialsubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #beautyGroceries .cookessentialsubItems .fruitsvegList-subitems:hover, #groceriesItems #beautyGroceries .cookessentialsubItems .cookessentialList-subitems:hover, #groceriesItems #beautyGroceries .cookessentialsubItems .dairybakeryList-subitems:hover, #groceriesItems #beautyGroceries .cookessentialsubItems .personalcareList-subitems:hover, #groceriesItems #beautyGroceries .cookessentialsubItems .beautyList-subitems:hover, #groceriesItems #beautyGroceries .dairybakerysubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #beautyGroceries .dairybakerysubItems .fruitsvegList-subitems:hover, #groceriesItems #beautyGroceries .dairybakerysubItems .cookessentialList-subitems:hover, #groceriesItems #beautyGroceries .dairybakerysubItems .dairybakeryList-subitems:hover, #groceriesItems #beautyGroceries .dairybakerysubItems .personalcareList-subitems:hover, #groceriesItems #beautyGroceries .dairybakerysubItems .beautyList-subitems:hover, #groceriesItems #beautyGroceries .personalcaresubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #beautyGroceries .personalcaresubItems .fruitsvegList-subitems:hover, #groceriesItems #beautyGroceries .personalcaresubItems .cookessentialList-subitems:hover, #groceriesItems #beautyGroceries .personalcaresubItems .dairybakeryList-subitems:hover, #groceriesItems #beautyGroceries .personalcaresubItems .personalcareList-subitems:hover, #groceriesItems #beautyGroceries .personalcaresubItems .beautyList-subitems:hover, #groceriesItems #beautyGroceries .beautysubItems .biscuitsdrinkList-subitems:hover, #groceriesItems #beautyGroceries .beautysubItems .fruitsvegList-subitems:hover, #groceriesItems #beautyGroceries .beautysubItems .cookessentialList-subitems:hover, #groceriesItems #beautyGroceries .beautysubItems .dairybakeryList-subitems:hover, #groceriesItems #beautyGroceries .beautysubItems .personalcareList-subitems:hover, #groceriesItems #beautyGroceries .beautysubItems .beautyList-subitems:hover {
+  color: #0c5273;
+  transform: scale(1.03);
+  font-weight: 500;
+}
+
+#packagedFoodGroceries:hover .biscuitsdrinksubItems {
+  display: flex !important;
+}
+
+#vegfruitsGroceries:hover .fruitsvegsubItems {
+  display: flex !important;
+}
+
+#cookessentialGroceries:hover .cookessentialsubItems {
+  display: flex !important;
+}
+
+#dairybackeryGroceries:hover .dairybakerysubItems {
+  display: flex !important;
+}
+
+#personalcareGroceries:hover .personalcaresubItems {
+  display: flex !important;
+}
+
+#beautyGroceries:hover .beautysubItems {
+  display: flex !important;
+}
+
+.main-pagetop-section {
+  padding: 40px 0;
+}
+.main-pagetop-section .main-page-slide {
+  overflow: hidden;
+  padding: 10px 20px;
+  position: relative;
+}
+.main-pagetop-section .main-page-slide .main-slide-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+}
+.main-pagetop-section .main-page-slide .main-slide-container .slide {
+  width: 360px;
+}
+.main-pagetop-section .main-page-slide .main-slide-container .slide img {
+  width: 360px;
+  box-shadow: 0 0 6px #bcb8b8;
+  border-radius: 20px;
+}
+.main-pagetop-section .main-page-slide .slide-move-btn .next-btn {
+  position: absolute;
+  top: 110px;
+  right: 20px;
+  height: 35px;
+  width: 35px;
+  background-color: #e0fae9;
+  border-radius: 50%;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.main-pagetop-section .main-page-slide .slide-move-btn .next-btn span {
+  font-size: 20px;
+  color: #5e5b5b;
+}
+.main-pagetop-section .main-page-slide .slide-move-btn .prev-btn {
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  height: 35px;
+  width: 35px;
+  background-color: #e0fae9;
+  border-radius: 50%;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.main-pagetop-section .main-page-slide .slide-move-btn .prev-btn span {
+  font-size: 20px;
+  color: #5e5b5b;
+}/*# sourceMappingURL=style.css.map */
